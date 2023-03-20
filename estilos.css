@@ -1,0 +1,19 @@
+#idiv1{
+    background-color: aquamarine;
+    width: 100%;
+    height: 200px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+#idiv2{
+    width: 100%;
+    height: 10em;
+    background-color: olive;
+}
+span{
+    width: 100%;
+    background-color: aqua;
+    font-weight: bolder;
+    color: red;
+}
