@@ -1,0 +1,30 @@
+@media screen and (max-width: 320px){
+    div{
+        background-color: blueviolet;
+        border: solid black 1px;
+        border-radius: 5px;
+        margin-bottom: 1em;
+        padding-left: 0.5em;
+
+    }
+}
+
+@media screen and (min-width: 321px){
+    div{
+        border: solid black 1px;
+        border-radius: 5px;
+        margin-bottom: 1em;
+        padding-left: 0.5em;
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    div{
+        border: solid black 1px;
+        border-radius: 5px;
+        margin-bottom: 1em;
+        padding-left: 0.5em;
+        background-color: red;
+    }
+}
