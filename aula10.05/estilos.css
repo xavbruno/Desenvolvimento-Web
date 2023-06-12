@@ -1,0 +1,41 @@
+#iprincipal{
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    background-color: orange;
+    text-align: center;
+}
+#iprincipal div{
+    background-color: blue;
+    height: 50px;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 375px){
+    #iprincipal{
+        grid-template-columns: auto;
+    }
+    #idiv4, #idiv5, #idiv6, #idiv7, #idiv8{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 376px){
+    #iprincipal{
+        grid-template-columns: auto auto;
+    }
+    #idiv7, #idiv8{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    #iprincipal{
+        grid-template-columns: auto auto auto auto;
+    }
+    #idiv7, #idiv8{
+        display: block;
+    }
+}
+
+
